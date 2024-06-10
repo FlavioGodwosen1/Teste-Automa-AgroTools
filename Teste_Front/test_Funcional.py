@@ -42,7 +42,6 @@ def test_Login(driver):
     
     button = driver.find_element(By.NAME, "save_to_cart")
     button.click()
-    sleep(5)
     
     carrinho = driver.find_element(By.ID, "menuCart")
     carrinho.click()
